@@ -2,7 +2,9 @@
 
 Potato Dark is a modern, simple and beautiful Hugo theme.
 
-<!-- ![screenshot]() -->
+![screenshot](https://github.com/surajmandalcell/potato-dark/blob/master/images/screenshot.png)  
+
+[Full screenshot here](https://github.com/surajmandalcell/potato-dark/blob/master/images/tn.png)
 
 ## Overview
 
@@ -61,10 +63,10 @@ Pull requests, bug fixes and new features are welcome!
 
 Please create feature branches from [develop](https://github.com/surajmandalcell/potato-dark/tree/develop) and submit a PR for any change.
 
-## Development
+<!-- ## Development
 
 1. Edit the theme or fox somthing
-2. Create a pull request and be patient
+2. Create a pull request and be patient -->
 
 ## License
 
