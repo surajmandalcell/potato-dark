@@ -1,0 +1,214 @@
+/* base.css */
+* {
+  box-sizing: border-box
+}
+
+html {
+  font-size: 62.5%
+}
+
+body {
+  color: var(--color-text);
+  font-size: 1.0rem;
+  font-family: var(--SanFrancisco);
+  line-height: 1.57
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+  font-family: var(--OpenSans)
+}
+
+h1 {
+  font-size: 3.2rem
+}
+
+h2 {
+  font-size: 2.8rem
+}
+
+h3 {
+  font-size: 2.4rem
+}
+
+h4 {
+  font-size: 2.0rem
+}
+
+h5 {
+  font-size: 1.8rem
+}
+
+h6 {
+  font-size: 1.6rem
+}
+
+p {
+  font-size: 1.6rem
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  &:hover {
+    color: var(--link-hover)
+  }
+}
+
+ul {
+  & li {
+    list-style: disc
+  }
+}
+
+ol {
+  & li {
+    list-style: decimal
+  }
+}
+
+li {
+  font-size: 1.6rem
+}
+
+dt {
+  margin-top: 16px;
+  font-size: 1.6rem
+}
+
+dd {
+  margin: 8px 0 0 20px;
+  font-size: 1.6rem
+}
+
+pre {
+  display: block;
+  padding: 12px;
+  border-radius: 3px;
+  background-color: #f8f8f8;
+  font-size: 1.2rem;
+  word-wrap: break-word;
+  overflow: auto
+}
+
+code {
+  line-height: 1.8;
+  font-size: 1.4rem
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 1.6rem
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid #eee
+}
+
+th {
+  background-color: #fafafa;
+  font-weight: normal
+}
+
+del {
+  color: #999
+}
+
+blockquote {
+  margin: 0;
+  padding: 8px 12px;
+  border-left: 3px solid #ccc;
+  & * {
+    margin: 0
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto
+}
+
+/* SLICK CSS */
+
+.slick-slider {
+  position: relative
+}
+
+.slick-slide {
+  margin: 0 8px
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 28px;
+  height: 28px;
+  border: 0;
+  border-radius: 50%;
+  background: #555;
+  &:hover {
+    cursor: pointer
+  }
+  &::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 5px;
+    height: 5px;
+    border: solid #fafafa
+  }
+  @media(--md) {
+    display: none!important
+  }
+}
+
+.slick-prev {
+  left: -32px;
+  &::after {
+    left: 1px;
+    border-width: 2px 0 0 2px;
+    transform: rotate(-45deg)
+  }
+}
+
+.slick-next {
+  right: -32px;
+  &::after {
+    right: 1px;
+    border-width: 2px 2px 0 0;
+    transform: rotate(45deg)
+  }
+}
+
+/* VARIABLE */
+
+@custom-media --lg(min-width:1024px);
+@custom-media --lmd(min-width:768px);
+@custom-media --md(max-width:767px);
+@custom-media --sm(min-width:640px);
+:root {
+  --SanFrancisco: -apple-system, BlinkMacSystemFont, YakuHanJP, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  --OpenSans: 'Open Sans', sans-serif
+}
+
+:root {
+  --bg-color: #fff;
+  --color-text: #555;
+  --link-color: #337ab7;
+  --link-hover: #175081
+}

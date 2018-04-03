@@ -1,21 +1,10 @@
-# theme.toml template for a Hugo theme
-# See https://github.com/spf13/hugoThemes#themetoml for an example
-
-name = "Potato Dark"
+name = "Pickles"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
-description = ""
-homepage = "http://siteforthistheme.com/"
-tags = ["", ""]
-features = ["", ""]
-min_version = 0.15
-
-[author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+licenselink = "https://github.com/mismith0227/hugo_theme_pickles/blob/master/LICENSE.md"
+description = "Pickles is a modern, simple and beautiful Hugo theme"
+author = "Takuma Misumi"
+homepage = "https://pickles.work/"
+source_repo = "git@github.com:mismith0227/hugo_theme_pickles.git"
+tags = ["Responsive", "Blog", "Google analytics", "Disqus", "Clean", "Tags", "Minimal", "Minimalist", "Simple", "White", "Starter"]
+features = ["blog"]
+min_version = 0.27
