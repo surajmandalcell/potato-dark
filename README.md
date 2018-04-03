@@ -1,19 +1,18 @@
-# Pickles [![Build Status](https://travis-ci.org/mismith0227/hugo_theme_pickles.svg?branch=master)](https://travis-ci.org/mismith0227/hugo_theme_pickles) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/mismith0227/hugo_theme_pickles/blob/master/license.md) [![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+# Potato Dark [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/surajmandalcell/potato-dark/blob/master/license.md) 
 
-Pickles is a modern, simple and beautiful Hugo theme.
+Potato Dark is a modern, simple and beautiful Hugo theme.
 
-![screenshot](https://github.com/mismith0227/hugo_theme_pickles/blob/master/images/screenshot.png)
+<!-- ![screenshot]() -->
 
 ## Overview
 
+* Support for tags
+* Responsive design
+* Support for Related Content
+* Analytics with Google Analytics
 * Modern, Simple and beautiful design
 * Medium's Image Zoom（[zoom.js](https://github.com/fat/zoom.js/))
-* Social links（Twitter,Facebook,Instagram,Google+,GitHub,GitLab,npm,Codepen,Dribbble,500px,Flickr,Pinterest,Tumblr,Vimeo,YouTube,Linkedin）
-* Support for Related Content
-* Support for tags
-* Analytics with Google Analytics
-* Responsive design
-* SVG Sprite
+* Social links （most social networks available）
 
 Use short code for Image Zoom.
 
@@ -21,35 +20,26 @@ Use short code for Image Zoom.
 {{% zoom-img src="/images/default.jpg" %}}
 ```
 
-## Features
-
-* gulp
-* webpack
-* PostCSS
-* Babel
-* SVG Sprite
-* Standard
-
 ## Installation
 
-In your hugo site directory, run:
+cd your hugo site directory and run:
 
 ```shell
 $ mkdir themes
 $ cd themes
-$ git clone -b release https://github.com/mismith0227/hugo_theme_pickles
+$ git clone -b release https://github.com/surajmandalcell/potato-dark
 ```
 
 Or download it from the release branch
 
-[release](https://github.com/mismith0227/hugo_theme_pickles/tree/release)
+[release](https://github.com/surajmandalcell/potato-dark/tree/release)
 
 ## Usage
 
-Use hugo's -t hugo_theme_pickles or --theme=hugo_theme_pickles option with hugo commands. Example:
+Use hugo's -t potato-dark or --theme=potato-dark option with hugo commands. Example:
 
 ```shell
-$ hugo server -t hugo_theme_pickles -w -D
+$ hugo server -t potato-dark -w -D
 ```
 
 ## Configuration
@@ -57,10 +47,10 @@ $ hugo server -t hugo_theme_pickles -w -D
 You may specify following options in `config.toml` of your site to make use of
 this theme's features.
 
-For getting started with Pickles, copy the [config.toml](https://github.com/mismith0227/hugo_theme_pickles/blob/master/exampleSite/config.toml) file from the exampleSite directory inside Pickles’s repository to your site repository.
+For getting started with potato dark, copy the [config.toml](https://github.com/surajmandalcell/potato-dark/blob/master/exampleSite/config.toml) file from the exampleSite directory inside Potato's repository to your site repository.
 
 ```shell
-$ cp themes/hugo_theme_pickles/exampleSite/config.toml .
+$ cp themes/potato-dark/exampleSite/config.toml .
 ```
 
 Now, you can start editing this file and add your own information!
@@ -69,28 +59,12 @@ Now, you can start editing this file and add your own information!
 
 Pull requests, bug fixes and new features are welcome!
 
-Please create feature branches from [develop](https://github.com/mismith0227/hugo_theme_pickles/tree/develop) and submit a PR for any change.
+Please create feature branches from [develop](https://github.com/surajmandalcell/potato-dark/tree/develop) and submit a PR for any change.
 
 ## Development
 
-1. Install Node modules
-
-        $ yarn
-
-1. Run gulp. You don't need to install gulp globally.
-
-        // Development
-        $ yarn run dev
-        $ // On another tab
-        $ hugo server
-
-        // Production (compress)
-        $ yarn run prod
-        $ // On another tab
-        $ hugo server
-
-        // Build
-        $ yarn run build
+1. Edit the theme or fox somthing
+2. Create a pull request and be patient
 
 ## License
 
