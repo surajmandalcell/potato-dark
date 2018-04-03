@@ -28,13 +28,6 @@ copyright = "&copy; Copyright notice"
   disqus = ""
   # Google Analytics API key.
   ga_api_key = "Your Google Analytics tracking id"
-  author = "Your Name"
-  authorwebsite = "example.com"
-  avatar = "/path/to/avatar"
-  contact = "Your contact link (ex. mailto:foo@example.com)"
-  bio = "Your short bio"
-  # Short subtitle/tagline. This is displayed in the header.
-  subtitle = "Short subtitle"
   # Logo image. This is displayed ogp image.
   logo = "/path/to/logo"
   favicon = "/path/to/favicon"
