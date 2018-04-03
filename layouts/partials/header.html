@@ -5,6 +5,7 @@
   <a href="#main" class="skip-link p-screen-reader-text">Skip to content</a>
   {{ partial "svgpack-sprite.html" . }}
   <header class="l-header">
+    {{ partial "menu.html" . }}
     {{ if .IsPage }}
     <p class="c-title p-title"><a href="{{ .Site.BaseURL }}" class="p-title__link">{{ .Site.Title }}</a></p>
     {{ else }}
