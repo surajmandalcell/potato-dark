@@ -44,25 +44,8 @@ copyright = "&copy; Copyright notice"
 
 [[menu.main]]
     identifier = "theme"
-    name = "/theme"
+    name = "Theme"
     weight = 3
-
-[[menu.main]]
-    parent = "theme"
-    name = "creating-a-new-theme"
-    url = "/posts/creating-a-new-theme"
-    weight = 1
-
-[[menu.main]]
-    parent = "theme"
-    name = "migrate-from-jekyll"
-    url = "/posts/migrate-from-jekyll"
-    weight = 2
-
-[[menu.main]]
-    name = "Tags"
-    url = "/tags"
-    weight = 4
 
 [related]
   # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
