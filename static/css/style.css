@@ -32,7 +32,7 @@ ul.p-menu__lists::before {
 /* Base style */
 
 * {
-    transition-duration: 0.7s;
+    transition-duration: 0.5s;
     box-sizing: border-box
 }
 
