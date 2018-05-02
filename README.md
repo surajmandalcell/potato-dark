@@ -2,9 +2,7 @@
 
 Potato Dark is a modern, simple and beautiful Hugo theme.
 
-![screenshot](https://github.com/surajmandalcell/potato-dark/blob/master/images/screenshot.png)  
-
-[Full screenshot here](https://github.com/surajmandalcell/potato-dark/blob/master/images/tn.png)
+![screenshot](https://github.com/surajmandalcell/potato-dark/blob/master/images/screenshot.png)   
 
 ## Overview
 
