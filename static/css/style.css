@@ -445,7 +445,7 @@ img {
 }
 
 
-/* Menu styles*/
+/* Menu styles - change */
 
 .p-menu {
     width: 100%;
@@ -454,9 +454,10 @@ img {
     padding-bottom: 14px;
     margin-bottom: 4rem;
     display: inline-block;
-    border-left: 2px solid #ED5276cc;
+    border-left: 1rem solid #ED5276cc;
 }
 
+/* change */
 .p-menu:hover{
     /*border-left: 4px solid #ED5276cc;*/
     opacity: 0.65
@@ -467,6 +468,10 @@ img {
     padding: 0;
     max-width: 865px;
     display: inline-block;
+    /* Change */
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: left;
 }
 
 @media(min-width:640px) {
