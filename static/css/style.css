@@ -458,7 +458,7 @@ img {
 }
 
 .p-menu:hover{
-    border-left: 4px solid #ED5276cc;
+    /*border-left: 4px solid #ED5276cc;*/
     opacity: 0.65
 }
 
