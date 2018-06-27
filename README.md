@@ -59,7 +59,7 @@ Now, you can start editing this file and add your own information!
 
 Pull requests, bug fixes and new features are welcome!
 
-Please create feature branches from [develop](https://github.com/surajmandalcell/potato-dark/tree/develop) and submit a PR for any change.
+To start just fork the repository and consider creating an seperate random branch so it get easier for me to test and review pushed code! thanks.
 
 <!-- ## Development
 
