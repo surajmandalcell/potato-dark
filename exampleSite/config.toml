@@ -26,6 +26,8 @@ copyright = "&copy; Copyright notice"
   linkedin = "Your LinkedIn username"
   # Disqus shortname
   disqus = ""
+  # Commento Host
+  commento = ""
   # Google Analytics API key.
   ga_api_key = "Your Google Analytics tracking id"
   # Logo image. This is displayed ogp image.
