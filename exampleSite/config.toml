@@ -27,7 +27,9 @@ copyright = "&copy; Copyright notice"
   # Disqus shortname
   disqus = ""
   # Commento Host
-  commento = ""
+  #commento = ""
+  # Coral (Talk v5) Host
+  #coral = ""
   # Google Analytics API key.
   ga_api_key = "Your Google Analytics tracking id"
   # Logo image. This is displayed ogp image.
