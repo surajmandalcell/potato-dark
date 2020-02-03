@@ -1,8 +1,10 @@
-baseurl = "Your site URL"
+#Uncomment as needed
+#baseurl = "Your site URL"
 languageCode = "en-us"
 Title = "Your site title"
 # Copyright notice. This is displayer in the footer.
 copyright = "&copy; Copyright notice"
+theme = "potato-dark"
 
 [params]
   paginate = 10
@@ -11,7 +13,6 @@ copyright = "&copy; Copyright notice"
   twitter = "Your Twitter username"
   facebook = "Your Facebook username"
   instagram = "Your Instagram username"
-  googleplus = "Your Google+ account URL" # https://plus.google.com/u/0/xxxxxx
   github = "Your GitHub username"
   gitlab = "Your GitLab username"
   npm = "Your npm username"
@@ -26,10 +27,6 @@ copyright = "&copy; Copyright notice"
   linkedin = "Your LinkedIn username"
   # Disqus shortname
   disqus = ""
-  # Commento Host
-  #commento = ""
-  # Coral (Talk v5) Host
-  #coral = ""
   # Google Analytics API key.
   ga_api_key = "Your Google Analytics tracking id"
   # Logo image. This is displayed ogp image.

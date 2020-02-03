@@ -22,12 +22,10 @@ Use short code for Image Zoom.
 
 ## Installation
 
-cd your hugo site directory and run:
+Inside the folder of your Hugo site run:
 
 ```shell
-$ mkdir themes
-$ cd themes
-$ git clone -b release https://github.com/surajmandalcell/potato-dark
+$ git submodule add https://github.com/surajmandalcell/potato-dark themes/potato-dark
 ```
 
 Or download it from the release branch
