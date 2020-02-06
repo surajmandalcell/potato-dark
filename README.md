@@ -28,9 +28,13 @@ Inside the folder of your Hugo site run:
 $ git submodule add https://github.com/surajmandalcell/potato-dark themes/potato-dark
 ```
 
-Or download it from the release branch
+Or download it from the [release](https://github.com/surajmandalcell/potato-dark/tree/release) branch
 
-[release](https://github.com/surajmandalcell/potato-dark/tree/release)
+
+
+Then,  
+  
+replace your `config.toml` with the one provided in `theme/potato-dark/exampleSite/config.toml`
 
 ## Usage
 
@@ -51,7 +55,7 @@ For getting started with potato dark, copy the [config.toml](https://github.com/
 $ cp themes/potato-dark/exampleSite/config.toml .
 ```
 
-Now, you can start editing this file and add your own information!
+Now, you can start editing this file and add your own stuff!
 
 ## Contributing
 
@@ -61,7 +65,7 @@ To start just fork the repository and consider creating an seperate random branc
 
 <!-- ## Development
 
-1. Edit the theme or fox somthing
+1. Edit the theme or fix somthing
 2. Create a pull request and be patient -->
 
 ## License
