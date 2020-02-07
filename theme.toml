@@ -5,7 +5,7 @@ description = "Potato Dark is a modern, simple and beautiful Hugo theme"
 source_repo = "git@github.com:surajmandalcell/potato-dark.git"
 tags = ["Responsive", "Blog", "Google analytics", "Disqus", "Clean", "Tags", "Minimal", "Minimalist", "Simple", "White", "Starter"]
 features = ["blog"]
-min_version = 0.27
+min_version = 0.57.0
 [author]
     name = "Potato Dark"
     homepage = "https://surajmandalcell.github.com/potato-dark"
