@@ -34,7 +34,7 @@ Or download it from the [release](https://github.com/surajmandalcell/potato-dark
 
 Then,  
   
-replace your `config.toml` with the one provided in `theme/potato-dark/exampleSite/config.toml`
+replace your `config.toml` with the one provided in `themes/potato-dark/exampleSite/config.toml`
 
 ## Usage
 
