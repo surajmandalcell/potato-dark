@@ -2,7 +2,7 @@
 #baseurl = "Your site URL"
 languageCode = "en-us"
 Title = "Your site title"
-# Copyright notice. This is displayer in the footer.
+# Copyright notice. This is displayed in the footer.
 copyright = "&copy; Copyright notice"
 theme = "potato-dark"
 
