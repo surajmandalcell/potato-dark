@@ -1,7 +1,7 @@
 @import url("normalize.css");
 
 /* Changes */
-#main{
+#main {
     border-radius: 0.15%;
     padding: 15px 20px;
     background: #f2f0ec;
@@ -25,14 +25,14 @@
     color: #ccc;
 }
 
-.p-subtitle{
+.p-subtitle {
     color: #999;
 }
 
 /* Base style */
 
 * {
-    transition-duration: 0.5s;
+    /* transition-duration: 0.5s; */
     box-sizing: border-box
 }
 
@@ -458,7 +458,7 @@ img {
 }
 
 /* change */
-.p-menu:hover{
+.p-menu:hover {
     /*border-left: 4px solid #ED5276cc;*/
     opacity: 0.65
 }
@@ -628,7 +628,7 @@ img {
 
 .p-screen-reader-text {
     clip: rect(1px, 1px, 1px, 1px);
-    position: absolute!important;
+    position: absolute !important;
     height: 1px;
     width: 1px;
     overflow: hidden
@@ -640,7 +640,7 @@ img {
     background-color: #f1f1f1;
     border-radius: 3px;
     box-shadow: 0 0 2px 2px rgba(0, 0, 0, .6);
-    clip: auto!important;
+    clip: auto !important;
     color: #337ab7;
     display: block;
     font-size: 14px;
@@ -722,37 +722,37 @@ img {
 }
 
 .u-dn {
-    display: none!important
+    display: none !important
 }
 
 .u-db {
-    display: block!important
+    display: block !important
 }
 
 .u-di {
-    display: inline!important
+    display: inline !important
 }
 
 .u-dib {
-    display: inline-block!important
+    display: inline-block !important
 }
 
 .u-align-left {
-    display: block!important;
-    margin-left: 0!important;
-    margin-right: auto!important
+    display: block !important;
+    margin-left: 0 !important;
+    margin-right: auto !important
 }
 
 .u-align-center {
-    display: block!important;
-    margin-right: auto!important;
-    margin-left: auto!important
+    display: block !important;
+    margin-right: auto !important;
+    margin-left: auto !important
 }
 
 .u-align-right {
-    display: block!important;
-    margin-left: auto!important;
-    margin-right: 0!important
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: 0 !important
 }
 
 /* zoom.css */
@@ -942,7 +942,7 @@ img.zoom-img {
 
 @media(max-width:767px) {
     .slick-arrow {
-        display: none!important
+        display: none !important
     }
 }
 
