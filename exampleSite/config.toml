@@ -25,6 +25,8 @@ theme = "potato-dark"
   vimeo = "Your Vimeo username"
   youtube = "Your YouTube username"
   linkedin = "Your LinkedIn username"
+  # You need to provide the mastodon instance domain name as well as the username
+  mastodon = "mastodon-instance-domain.com/@your_username"
   # Disqus shortname
   disqus = ""
   # Google Analytics API key.
