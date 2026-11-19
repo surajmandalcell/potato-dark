@@ -6,6 +6,10 @@ Title = "Your site title"
 copyright = "&copy; Copyright notice"
 theme = "potato-dark"
 
+# Lets the image zoom shortcode HTML render (Hugo 0.60+ strips raw HTML by default).
+[markup.goldmark.renderer]
+  unsafe = true
+
 [params]
   paginate = 10
   # Social accounts. Link to these accounts are displayed in the header and
